@@ -7,7 +7,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #c9bce0, #a995d1);
+  background: #c8bdd8;
   color: #333;
   font-family: Arial, sans-serif;
 }
@@ -17,7 +17,7 @@ body {
   padding: 30px;
   border-radius: 15px;
   background: white;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+  box-shadow: 0 3px 10px rgba(65, 52, 83, .16);
   text-align: center;
 }
 
