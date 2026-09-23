@@ -7,7 +7,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #c9bce0, #a995d1);
+  background: linear-gradient(135deg, #919ec4, #5f7cda);
   color: #333;
   font-family: Arial, sans-serif;
 }
@@ -23,7 +23,7 @@ body {
 
 h1 {
   margin: 0;
-  color: #4f416d;
+  color: #293764;
   font-size: clamp(28px, 5vw, 36px);
   line-height: 1.15;
 }
@@ -40,13 +40,13 @@ button {
   border-radius: 8px;
   margin-top: 4px;
   color: #fff;
-  background-color: #a996d2;
+  background-color: #7ab9dc;
   cursor: pointer;
   font-size: 16px;
   transition: background .3s ease;
 }
 
-button:hover { background-color: #7963a8; }
+button:hover { background-color: #2f3d7c; }
 button:disabled { cursor: wait; opacity: .7; }
 
 #resultado {
@@ -76,7 +76,7 @@ button:disabled { cursor: wait; opacity: .7; }
 .connection-type { margin-left: auto; color: #929bad; font-size: 10px; }
 
 .speed-value { display: flex; align-items: baseline; gap: 8px; margin: 7px 0 10px; }
-.speed-value strong { color: #4f416d; font-size: 42px; }
+.speed-value strong { color: #293764; font-size: 42px; }
 .speed-value span { color: #68728c; font-size: 14px; }
 .speed-meter { height: 6px; overflow: hidden; border-radius: 4px; background: #e7eaf1; }
 .meter-fill { display: block; height: 100%; border-radius: 4px; background: #55b77b; transition: width .5s ease; }
@@ -85,11 +85,11 @@ button:disabled { cursor: wait; opacity: .7; }
 
 .recommendation-card { background: #fff; }
 .recommendation-title { display: flex; align-items: flex-start; gap: 9px; }
-.sparkle { color: #8068ad; font-size: 17px; line-height: 1; }
-.recommendation-title h2 { margin: 0 0 3px; color: #4f416d; font-size: 16px; }
+.sparkle { color: #5c78c7; font-size: 17px; line-height: 1; }
+.recommendation-title h2 { margin: 0 0 3px; color: #293764; font-size: 16px; }
 .recommendation-title p { margin: 0; color: #7a8397; font-size: 12px; }
 .recommendation-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
-.recommendation-list h3 { margin: 0 0 10px; color: #58497a; font-size: 12px; }
+.recommendation-list h3 { margin: 0 0 10px; color: #39466e; font-size: 12px; }
 .recommendation-list h3 span { margin-right: 3px; }
 .good-list h3 { color: #4a9e6c; }
 .caution-list h3 { color: #bd8136; }
