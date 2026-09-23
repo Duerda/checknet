@@ -1,1 +1,22 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Checknet — entenda o que sua conexão consegue fazer."><title>Checknet — leitura simples da sua conexão</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body><header><a class="brand" href="."><span class="mark">↗</span>CHECK<span>NET</span></a><span class="status-dot">leitura no navegador</span></header><main><section class="intro"><div><p class="eyebrow">01 / CONEXÃO EM LINGUAGEM HUMANA</p><h1>Entenda sua<br><strong>internet.</strong></h1><p class="lead">Uma leitura rápida da conexão disponível neste dispositivo — traduzida em possibilidades do dia a dia.</p><button id="testButton" class="test-button" type="button"><span id="buttonLabel">iniciar leitura</span><b>↗</b></button><p class="footnote">A velocidade é uma estimativa do navegador, não um teste completo de download.</p></div><div class="signal-art" aria-hidden="true"><div class="signal-ring ring-one"></div><div class="signal-ring ring-two"></div><div class="signal-ring ring-three"></div><div class="signal-core">CN</div><span class="signal-label">sinal<br>presente</span></div></section><section id="resultado" aria-live="polite" hidden></section><section class="how"><p class="eyebrow">02 / COMO LER</p><div class="how-grid"><article><b>01</b><h2>Observe</h2><p>O Checknet consulta o tipo de rede e o downlink informado pelo navegador.</p></article><article><b>02</b><h2>Interprete</h2><p>O número vira uma resposta concreta: assistir, estudar, conversar ou jogar.</p></article><article><b>03</b><h2>Escolha</h2><p>Se o resultado variar, repita em outro momento ou lugar. A conexão muda.</p></article></div></section></main><footer><span>CHECKNET / 2026</span><span>feito para explicar, não complicar.</span></footer><script src="script.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Teste a velocidade da sua internet e veja o que ela suporta.">
+  <title>CheckNet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Teste a velocidade de sua internet</h1>
+    <p class="intro">Veja o que sua conexão consegue rodar bem no dia a dia.</p>
+    <button id="testButton" type="button" onclick="mostrarVelocidade()">
+      <span id="buttonLabel">Iniciar Teste</span>
+    </button>
+    <section id="resultado" aria-live="polite" hidden></section>
+    <p class="footnote">A velocidade é estimada pelo navegador e pode variar.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
